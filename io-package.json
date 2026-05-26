@@ -148,7 +148,6 @@
     "compact": true,
     "connectionType": "local",
     "dataSource": "poll",
-    "materialize": true,
     "messagebox": true,
     "dependencies": [
       {
@@ -164,7 +163,10 @@
       {
         "admin": ">=7.7.22"
       }
-    ]
+    ],
+    "adminUI": {
+      "config": "materialize"
+    }
   },
   "native": {
     "fixNightNightEnd": true,
